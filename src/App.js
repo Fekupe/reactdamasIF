@@ -16,9 +16,17 @@ function App() {
     /*O React substitui className por class pq class é palavra reservada do JS*/
     <>
     {/* Nosso cabecalho tem uma propriedade chamada titulo */}
-    <Cabecalho logo="logo192.png" titulo="Fav.io" subtitulo="O melhor gerenciador de favoritos da Internet Brasileira!!!"/>
-    <Conteudo/>
-    <Rodape/>
+    <Cabecalho logo="icone.png" 
+    titulo="Flávia Favoritos" 
+    subtitulo="Guardando seus favoritos no coração!"/>
+    <Conteudo
+    charmander="charmander.png" />
+    <Rodape
+    instagram="instagram.png"
+    facebook="facebook.png"
+    twitter="twitter.png" 
+    data=""
+    />
     </>
   );
 }

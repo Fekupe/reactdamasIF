@@ -1,14 +1,22 @@
 .cabecalho{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around ;
+    align-items: baseline;
+    background-color: bisque;
 }
 
 .titulo{
-    font-size: 3rem;
+    font-size: 60px;
     color: chocolate;
-    background-color: #000;
+    background-color:
+
+}
+.logo {
+    height: 150px;
+    
 }
 
 .subtitulo{
-    font-size: 2rem;
+    font-size: 40px;
+    
 }

@@ -1,8 +1,13 @@
 import React from 'react'
+import styles from './Conteudo.module.css'
 
-export default function Conteudo() {
+export default function Conteudo(props) {
   return (
-    <div>Conteudo</div>
+    <div className={styles.conteudo}>
+      
+      <img className={styles.charmander}src={props.charmander} />
+    
+    </div>
   )
 }
 

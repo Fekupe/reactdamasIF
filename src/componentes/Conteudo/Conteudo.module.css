@@ -1,0 +1,8 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+.charmander {
+    height: 500px;
+}
